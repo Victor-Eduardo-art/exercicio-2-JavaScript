@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js" defer></script>
+   <title>Verificador de idade</title>
+</head>
+<body onload="horas()">
+   <header>
+      <h1>Verificador de idade</h1>
+   </header>
+
+   <section>
+      <div id="furm">
+         Ano de nascimento<input type="number" id="idade" value=2020 min="1" max="4"><br>
+
+         <input type="radio" name="sexo" id="femn" value="femn" onclick="femn()"><label for="femn">feminino</label>
+
+         <input type="radio" name="sexo" id="masc" value="masc" onclick="masc()"><label for="masc">masculino</label>
+
+         <p id="msg">preencha os dados a cima</p>
+      </div>
+
+      <div id="imgs">
+         <img src="" alt="" id="img">
+
+         <input type="button" value="verificar" id="botao" onclick="verif()">
+      </div>
+   </section>
+
+   <footer>
+      cursoEmvideo
+   </footer>
+</body>
+</html>
